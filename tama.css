@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-image: url('bgtama.jpg');
+    background-size: cover;
+    font-family:'Franklin Gothic Medium' ;
+    font-
+    :root{
+        --primary-color: #252525;
+        --secondary-color: #c8f560;
+        --tersier-color: #4e515c;
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        background-color: var(--primary-color);
+        color: white;
+    }
+    
+    .navbar-container{
+        box-sizing: border-box;
+        padding: 0 20px;
+        height: 45px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        position: sticky;
+        z-index: 100;
+        top: 0;
+        backdrop-filter: blur(25px);
+    }
+    
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 30px;
+    }
+    
+    ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .hero-container{
+        margin-top: 55px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .hero-img{
+        border-radius: 7px;
+        transition-duration: 0.3s;
+    }
+    
+    .hero-img:hover{
+        box-shadow: 0 0 13px var(--secondary-color);
+        scale: 1.1;
+    }
+    
+    .biodata-container{
+        margin-top: 55px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .biodata-overview{
+        padding: 0 20px;
+        text-align: justify;
+    }
+    
+    .biodata-tabel{
+        width: 100vw ;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .biodata-tabel table{
+        width: 30%;
+    
+    }
+    
+    .biodata-tabel tr td{
+        padding: 2px 5px;
+    }
+    
+    .footer-container{
+        margin-top: 55px;
+        background-color: var(--tersier-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 75px;
+    }
+
+    
+    .picture h1{
+        padding: 0 30px;
+    }
+    
+    .picture div{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+        box-sizing: border-box;
+        padding: 0 17px;
+    }
+    
+    .account-container{
+        margin-top: 55px;
+        padding: 0 30px;
+        text-align: center;
+    }
+    
+    .account-container div{
+        height: 15vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
